@@ -1,0 +1,31 @@
+@"
+# Student Engagement Detection
+
+## Project Description
+Student Engagement Detection is a deep learning project that detects the engagement level of a student from an uploaded image.
+
+The project uses a Convolutional Neural Network (CNN) built with TensorFlow and Keras. A Streamlit web application is used to provide a simple interface for testing the trained model.
+
+## Technologies Used
+- Python
+- TensorFlow
+- Keras
+- NumPy
+- Pillow
+- Streamlit
+
+## Project Structure
+```text
+Student_Engagement_Detection/
+│
+├── src/
+│   ├── train.py
+│   ├── test.py
+│   └── app.py
+│
+├── model/
+│   └── engagement_model.keras
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
